@@ -4,3 +4,5 @@ This projects aims to predict whether the patient has been infected by COVID-19,
 We first do exploratory data analysis and try to identify the key features to use in the model. We notice that blood count variables are weakly correlated with target variables. To improve the correlation, we employ feature engineering which creates dummy variables based on optimal thresholds. The details of the algorithm can be found in the code. 
 
 We then use Logistic Regression and SVM with Grid Search for the prediction. To improve the results, we also add PCA to SVM model. Overall results are quite satisfactory (>0.70 AUC test score for all target variables) given the challanges with the data. 
+
+Please see the code for more details. 
